@@ -1,0 +1,1395 @@
+PHP completo
+Pregunta 1
+En PHP, para buscar un elemento en un array se puede emplear
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: in_array()
+
+Pregunta 2
+En PHP, ¿cómo se obtiene la información que se envía a través de la URL (query string)?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: $_GET
+
+Pregunta 3
+En PHP, ¿cuál es la forma correcta de abrir el fichero "datos.txt" para sólo lectura?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: fopen("datos.txt","r");
+
+Pregunta 4
+¿Qué significa PHP?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: PHP: Hypertext Preprocessor
+
+Pregunta 5
+En PHP, ¿qué característica de mysqli puede suponer un grave problema de seguridad en una aplicación web?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las sentencias múltiples
+
+Pregunta 6
+En PHP, ¿para qué sirve el siguiente código? if (isset($variable))
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Verifica si $variable está definida y tiene un valor no nulo
+
+Pregunta 7
+En PHP, todas las variables comienzan con el símbolo
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: $
+
+Pregunta 8
+En PHP, suponiendo que el fichero "algo.txt" existe y posee contenido, ¿cuál es el resultado final de este código?
+<?php
+$output = file("algo.txt");
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Un array en el que cada posición es una línea del fichero
+
+Pregunta 9
+¿Qué función de PHP devuelve el resultado exclusivamente como un array asociativo?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_fetch_assoc()
+
+Pregunta 10
+En PHP, ¿cómo se inserta un comentario que ocupa una línea?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: // Comentario
+
+Pregunta 11
+La sintaxis de PHP es parecida a
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Perl y C
+
+Pregunta 12
+En PHP, ¿cómo se crea una cookie?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Con setcookie()
+
+Pregunta 13
+¿Qué valor imprime el siguiente código?
+<?php
+$a = 1;
+
+{
+$a = 2;
+}
+
+echo $a;
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 2
+
+Pregunta 14
+¿Qué valor imprime el siguiente código?
+<?php
+$a = array(
+'a',
+'b',
+'c',
+0 => 'd',
+1 => 'e',
+'f'
+);
+
+echo count($a);
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 4
+
+Pregunta 15
+En PHP y con ODBC, ¿qué función muestra todo el resultado como una tabla HTML?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_result_all()
+
+Pregunta 16
+En PHP, ¿cuáles de las siguientes afirmaciones sobre el siguiente código es correcta?
+<?php
+class A {}
+
+class B {}
+
+class C extends A, B {}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: La clase C no puede heredar a la vez de las clases A y B
+
+Pregunta 17
+¿Cómo se accede al valor de 'd'?
+<?php
+$a = array(
+'a',
+3 => 'b',
+1 => 'c',
+'d'
+);
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: $a[4]
+
+Pregunta 18
+En PHP y MySQL, la función mysql_error()
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Devuelve el texto del mensaje de error de la operación anterior
+
+Pregunta 19
+En PHP, ¿cómo se representa el operador de ámbito?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ::
+
+Pregunta 20
+Cuando se emplea el método "post" de envío de un formulario, ¿los datos del formulario se muestran en la URL?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Nunca
+
+Pregunta 21
+En PHP, ¿qué hace la sentencia continue?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Salta a la siguiente iteración en el bucle for, foreach, while o do-while actual
+
+Pregunta 22
+En PHP y con ODBC, ¿qué realiza la función odbc_error()?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Devuelve el código de error de la operación anterior
+
+Pregunta 23
+¿Qué valor imprime el siguiente código?
+<?php
+function increment($val) {
+return ++$val;
+}
+
+echo increment(1) + 1;
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 3
+
+Pregunta 24
+En PHP, ¿cómo se obtiene la información de un formulario que ha sido enviado mediante el método "get"?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: $_GET[]
+
+Pregunta 25
+En PHP, para detectar el final de fichero, se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: feof()
+
+Pregunta 26
+En PHP y MySQL, para liberar la memoria utilizada por un resultado se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_free_result()
+
+Pregunta 27
+En PHP, ¿cómo se genera un número aleatorio?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: rand()
+
+Pregunta 28
+En PHP, la función getcwd()
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Devuelve la ruta del directorio actual
+
+Pregunta 29
+En PHP, ¿qué se emplea para definir una constante?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: define
+
+Pregunta 30
+En PHP y MySQL, para obtener el número de filas que han sido borradas con una sentencia DELETE, se utiliza la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_affected_rows()
+
+Pregunta 31
+¿Qué valor imprime el siguiente código?
+<?php
+if (null === false) {
+echo 'verdadero';
+} else {
+echo 'falso';
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: falso
+
+Pregunta 32
+En PHP, ¿qué método de acceso a una base de datos no es una capa abstracta?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql
+
+Pregunta 33
+En PHP, ¿qué sentencia de control está destinada a ser usada con arrays?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: foreach
+
+Pregunta 34
+Cuando un cliente web envía la información de un formulario al servidor
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las distintas parejas campo=valor se separan por "&"
+
+Pregunta 35
+En PHP, ¿cuál no es una capa abstracta de acceso a las bases de datos?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 36
+En PHP y con ODBC, ¿qué función se debe invocar después de odbc_fetch_row() para acceder a los campos del resultado?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_result()
+
+Pregunta 37
+En PHP, ¿cuál es la forma correcta de abrir una conexión con una base de datos MySQL?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_connect("localhost", "usuario");
+
+Pregunta 38
+En PHP, ¿qué librería se necesita para tratar imágenes?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: GD
+
+Pregunta 39
+En PHP, ¿cuál es la forma correcta de añadir 1 a la variable $contador?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: $contador++;
+
+Pregunta 40
+En PHP, para escribir directamente en un fichero sin tener que abrirlo, se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: file_put_contents()
+
+Pregunta 41
+Respecto a PHP, señala la afirmación correcta
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: die y exit son equivalentes
+
+Pregunta 42
+Para configurar el funcionamiento de PHP se emplea el fichero
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: php.ini
+
+Pregunta 43
+¿Qué valor imprime el siguiente código?
+<?php
+$a = 1;
+++$a;
+$a *= $a;
+echo $a--;
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 4
+
+Pregunta 44
+En PHP y con ODBC, ¿qué función se emplea para ejecutar una sentencia SQL?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_exec()
+
+Pregunta 45
+En PHP, ¿en teoría qué método de acceso a una base de datos debe proporcionar la máxima velocidad?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysqli
+
+Pregunta 46
+En PHP y con ODBC, ¿qué función devuelve el resultado exclusivamente como un array asociativo?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 47
+En PHP, para copiar un fichero subido desde un formulario HTML a su destino final se debe emplear
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: move_uploaded_file()
+
+Pregunta 48
+¿Qué funciones se emplean para abrir y cerrar una conexión en PHP?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_connect() y mysql_close()
+
+Pregunta 49
+En PHP, las funciones de expresiones regulares que están obsoletas son:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: POSIX
+
+Pregunta 50
+En PHP, ¿cuál es el carácter que se emplea para finalizar una instrucción?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ;
+
+Pregunta 51
+En PHP, la sentencia de control foreach se emplea para
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Recorrer los elementos de un array y las propiedades de un objeto
+
+Pregunta 52
+¿Qué valor imprime el siguiente código?
+<?php
+$var = 'false';
+
+if($var) {
+echo 'verdadero';
+} else {
+echo 'falso';
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: verdadero
+
+Pregunta 53
+En PHP, la función unlink() se emplea para
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Eliminar un fichero
+
+Pregunta 54
+En PHP, al subir un fichero, ¿qué posición de $_FILES almacena el tipo MIME del fichero subido?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: type
+
+Pregunta 55
+En PHP4, ¿qué característica de la orientación a objetos sí que existe?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: La herencia
+
+Pregunta 56
+En PHP, ¿qué función se emplea para invertir una cadena?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: strrev()
+
+Pregunta 57
+En PHP, ¿qué información se almacena en la variable superglobal $_SERVER['REMOTE_ADDR']?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: La dirección IP del visitante
+
+Pregunta 58
+En PHP, ¿qué funciones se emplean para abrir y cerrar una conexión a una base de datos ODBC?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_connect() y odbc_close()
+
+Pregunta 59
+El código PHP se escribe con los delimitadores
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: <?php…?>
+
+Pregunta 60
+En PHP, ¿qué problema tiene la expresión "<?=$algo;?>"?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Necesita que se puedan usar las etiquetas cortas y eso no es compatible con XML
+
+Pregunta 61
+En PHP, ¿un objeto de una clase puede acceder a la parte privada de otro objeto de la misma clase?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Sí, siempre
+
+Pregunta 62
+En PHP, cuando se incluye un fichero con include o requiere
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 63
+En PHP, para comprobar que un fichero es un fichero normal se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: is_file()
+
+Pregunta 64
+En PHP, para leer completamente un fichero en un array se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: file()
+
+Pregunta 65
+En PHP y con las funciones de expresiones regulares PCRE, para realizar una sustitución en base a una expresión regular se emplea la función:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: preg_replace()
+
+Pregunta 66
+En PHP, para comprobar si una constante existe se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: defined()
+
+Pregunta 67
+En una aplicación web es importante validar en el lado del cliente porque mejora:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: La experiencia del usuario
+
+Pregunta 68
+En PHP y con las funciones de expresiones regulares PCRE, si no se quiere tener en cuenta las mayúsculas y minúsculas, se debe emplear el modificador:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: i
+
+Pregunta 69
+¿Qué significa ODBC?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 70
+¿Qué valor imprime el siguiente código?
+<?php
+class MyException extends Exception {}
+
+try {
+throw new MyException('Oops!');
+} catch (Exception $e) {
+echo "Caught Exceptionn";
+} catch (MyException $e) {
+echo "Caught MyExceptionn";
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Caught Exception
+
+Pregunta 71
+En PHP y con ADOdb, para obtener el contenido de un resultado en forma de array bidimensional se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: GetRows()
+
+Pregunta 72
+En PHP, ¿qué hace la sentencia break?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Finaliza la ejecución del bucle for, foreach, while o do-while actual
+
+Pregunta 73
+En PHP, ¿qué es una variable superglobal?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Una variable que está disponible en todos los ámbitos del código
+
+Pregunta 74
+En PHP4, el constructor de una clase se declara
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 75
+En PHP, ¿cómo se puede sustituir "Amo" por "Odio" en la frase "Amo las expresiones regulares"?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: preg_replace("/Amo/", "Odio", "Amo las expresiones regulares")
+
+Pregunta 76
+En PHP y MySQL, para obtener el número de filas devueltas por un resultado, se utiliza la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_num_rows()
+
+Pregunta 77
+¿Qué valor se imprime para "a" en el siguiente código?
+<?php
+
+$a = 1;
+
+function Test()
+{
+echo "a = $a";
+}
+Test();
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Ningún valor
+
+Pregunta 78
+En PHP, para obtener el tamaño de un fichero se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: filesize()
+
+Pregunta 79
+En PHP y MySQL, para ejecutar una sentencia SQL se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 80
+¿Cómo se escribe "Hola mundo" en PHP?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: echo "Hola mundo";
+
+Pregunta 81
+En PHP, ¿qué valor imprime el siguiente código?
+
+class MyException extends Exception {}
+
+try {
+throw new MyException('Error');
+} catch (Exception $e) {
+echo "Capturada Exception";
+} catch (MyException $e) {
+echo "Capturada MyException";
+}
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Capturada Exception
+
+Pregunta 82
+En PHP y con ADOdb, para crear una conexión se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ADONewConnection()
+
+Pregunta 83
+Un valor que no ha sido definido se expresa en PHP con la palabra reservada
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: null
+
+Pregunta 84
+En PHP, ¿cómo se escriben las cadenas de caracteres?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Entre comillas simples ' o comillas dobles "
+
+Pregunta 85
+¿Quién inició el desarrollo de PHP?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Rasmus Lerdorf
+
+Pregunta 86
+¿Cómo se puede asegurar que una página web ha sido desarrollada con PHP?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Nunca se puede estar seguro al 100% de si una página ha sido desarrollada con PHP
+
+Pregunta 87
+En PHP, ¿qué función se emplea para convertir una cadena a minúsculas?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: strtolower()
+
+Pregunta 88
+¿Qué valor imprime el siguiente código?
+<?php
+$var = '0';
+
+if ($var) {
+echo 'verdadero';
+} else {
+echo 'falso';
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: falso
+
+Pregunta 89
+En PHP, ¿qué muestra el siguiente código?
+<?php
+$a = false;
+$b = true;
+$c = false;
+
+if($a ? $b : $c) {
+echo "false";
+} else {
+echo "true";
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: true
+
+Pregunta 90
+En PHP5, ¿que niveles de ocultación/visibilidad existen?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 91
+En PHP y con ODBC, ¿qué función se emplea para obtener el número de filas que han sido borradas con una sentencia DELETE?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_num_rows()
+
+Pregunta 92
+En PHP5, cuando se quiere impedir que una clase se extendida, se emplea el modificador
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: final
+
+Pregunta 93
+En PHP, ¿se invoca automáticamente el constructor de la clase base en la clase heredada?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Sí, si la clase heredada no define un constructor
+
+Pregunta 94
+En PHP, ¿qué instrucción finaliza la ejecución del script si produce un error?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: require()
+
+Pregunta 95
+En una aplicación web es importante validar en el lado del servidor porque:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 96
+En PHP, ¿qué devuelve la función filter_var() en el siguiente código? $email = "sergio.lujan@ua.es"; filter_var($email, FILTER_VALIDATE_EMAIL);
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Las anteriores respuestas no son correctas
+
+Pregunta 97
+En PHP, ¿qué operador de comparación no existe?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: <=>
+
+Pregunta 98
+¿Qué valor imprime el siguiente código?
+<?php
+$var = 'a';
+$VAR = 'b';
+
+echo "$var$VAR";
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ab
+
+Pregunta 99
+Respecto a la orientación a objetos en PHP5, señala la afirmación falsa
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Se puede realizar la herencia múltiple
+
+Pregunta 100
+¿Qué valor imprime el siguiente código?
+<?php
+$a = array(1, 2, 3);
+foreach($a as $x) {
+$x *= 2;
+}
+echo $a[0] * $a[1] * $a[2];
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 6
+
+Pregunta 101
+En PHP y MySQL, para seleccionar la base de datos se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_select_db()
+
+Pregunta 102
+En PHP, ¿cuál es la forma correcta de declarar una función?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: function miFuncion()
+
+Pregunta 103
+¿Qué significa DSN?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Data Source Name
+
+Pregunta 104
+En PHP, ¿cuál es la forma correcta de abrir una conexión con una base de datos MySQL?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysql_connect("localhost");
+
+Pregunta 105
+En PHP, para aplicar una función a cada elemento de un array se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: array_walk()
+
+Pregunta 106
+En PHP, cuando se abre un fichero, ¿qué opción abrirá el fichero para sólo escritura y colocará el puntero al final del fichero?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: a
+
+Pregunta 107
+¿Qué valor imprime el siguiente código?
+<?php
+$a = array();
+
+if ($a == null) { 
+echo 'verdadero';
+} else {
+echo 'falso';
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: verdadero
+
+Pregunta 108
+En PHP, ¿qué muestra el siguiente código?
+<?php
+$perro= "Gato";
+$gato = &$perro;
+$gato = "Perro";
+
+echo $perro . " " . $gato;
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Perro Perro
+
+Pregunta 109
+En PHP, ¿cuáles son operadores de comparación?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ==, !=, <> <, <=, >, >=
+
+Pregunta 110
+En PHP y con las funciones de expresiones regulares POSIX, para dividir una cadena en base a una expresión regular se emplea la función:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: split()
+
+Pregunta 111
+En PHP, ¿qué función se emplea para realizar una redirección?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: header()
+
+Pregunta 112
+En PHP, ¿qué función se emplea para convertir la primera letra de cada palabra en mayúscula?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ucwords()
+
+Pregunta 113
+En PHP, ¿cuál es la forma correcta de incluir un fichero?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Todas las respuestas son correctas
+
+Pregunta 114
+¿Cuál de las siguientes expresiones regulares se empareja con la cadena "go.go.go"?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: ........
+
+Pregunta 115
+En PHP, para calcular el módulo (el resto) de una división, se emplea el operador
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: %
+
+Pregunta 116
+En PHP y con ODBC, ¿qué función se emplea para obtener el número de filas devueltas por un resultado?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_num_rows()
+
+Pregunta 117
+En PHP, ¿qué método proporciona la extensión mysqli que no existe en mysql?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: mysqli_connect_error()
+
+Pregunta 118
+¿Qué valor imprime el siguiente código?
+<?php
+$a = array("A", "B", 1 => "C", "D", 2 => "E");
+echo count($a);
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 3
+
+Pregunta 119
+En PHP, cuando se crea una cookie, ¿cuál es la duración o fecha de caducidad por defecto?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Hasta que el navegador web se cierre
+
+Pregunta 120
+En PHP, para leer un número de bytes de un fichero abierto se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: fread()
+
+Pregunta 121
+En PHP, para unir todos los elementos de un array en una cadena se emplea la función
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: implode()
+
+Pregunta 122
+Las funciones de filtrado que existen en PHP se clasifican en:
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Funciones de validación y de saneamiento
+
+Pregunta 123
+En PHP, ¿qué información se almacena en la variable superglobal $_SERVER['HTTP_HOST']?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: El nombre del servidor
+
+Pregunta 124
+En PHP, ¿cómo se calcula el máximo de los números 2 y 4?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Todas las respuestas son correctas
+
+Pregunta 125
+En PHP, ¿cuál es el nombre del tipo de dato que permite almacenar múltiples valores separados?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: array
+
+Pregunta 126
+En PHP, $language['php'] es un ejemplo de
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Array asociativo
+
+Pregunta 127
+En PHP, ¿qué función se emplea para filtrar un dato?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: filter_input()
+
+Pregunta 128
+¿Qué valor imprime el siguiente código?
+<?php
+function fibonacci($x1, $x2)
+{
+return $x1 + $x2;
+}
+
+$x1 = 0;
+$x2 = 1;
+
+for($i = 0; $i < 10; $i++)
+{
+echo fibonacci($x1, $x2) . ',';
+}
+?>
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: 1,1,1,1,1,1,1,1,1,1,
+
+Pregunta 129
+En PHP, ¿cuál es la forma correcta de asignar el valor “verdadero” a una variable?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Todas las respuestas son correctas
+
+Pregunta 130
+En PHP, ¿qué función lee un fichero abierto línea a línea?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: fgets()
+
+Pregunta 131
+En PHP y con ODBC, ¿qué función se emplea para liberar la memoria utilizada por un resultado?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_free_result()
+
+Pregunta 132
+En PHP, ¿qué muestra el siguiente código?
+
+$str = 'a\bn'; 
+
+echo $str;
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: abn
+
+Pregunta 133
+En PHP, ¿cuál es la forma correcta de abrir una conexión con una base de datos ODBC?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: odbc_connect("DSN", "usuario", "contraseña");
+
+Pregunta 134
+En PHP, un constructor es un tipo especial de
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: Método
+
+Pregunta 135
+En PHP, al subir un fichero, ¿qué posición de $_FILES almacena el tamaño del fichero subido?
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: size
+
+Pregunta 136
+En PHP, para eliminar los espacios en blanco al final de una cadena se emplea
+
+Tu respuesta: Pregunta no contestada
+
+¡Respuesta errónea!
+
+Solución: rtrim()
+
